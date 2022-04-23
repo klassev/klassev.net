@@ -1,0 +1,21 @@
+{
+  "name": "klassev/klassev.net",
+  "description": "Mvc E-commerce Framework",
+  "minimum-stability": "stable",
+  "license": "mit-license",
+  "authors": [
+    {
+      "name": "Evgeny Klass",
+      "email": "klassev@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kev\\": "system/",
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "gabordemooij/redbean": "^v5.7.2"
+  }
+}
